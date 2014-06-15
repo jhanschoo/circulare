@@ -12,6 +12,21 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Arial; font-size: 20px; background-color: #47454b; height: 2000px; }
+
+
+/*top nav bar*/
+#nav{ background-color: white; position: fixed; width: 100%; top: 0; height: 70px; text-align: center; }
+#nav-wrapper{ display: inline-block; width: 960px; margin: auto auto; text-align: middle; }
+#nav ul{ list-style-type: none; padding-top: 15px; margin: 0; }
+#nav ul li{ display: inline-block; }
+#nav ul li:hover{ background-color: #E6EBF0; }
+#nav ul li a,visited{ color: #191970; font-weight:500; display: block; padding: 11px; text-decoration: none; }
+
+#wrapper{ width: 960px; margin: 0 auto; text-align: left; }
+#content{ background-color: #47454b; border: 3px solid #DDD; padding: 20px; margin: 80px 0 0 0; }
+/*end top nav bar*/
+
 	body
 	{
 		background: #f0f0f0;
@@ -262,7 +277,6 @@
 			ul.icons > li
 			{
 				position: relative;
-        display: inline-block;
 				padding: 2em 0 0 3em;
 			}
 			
@@ -992,6 +1006,7 @@
 		#banner-wrapper p
 		{
 			text-align: center;
+			margin-bottom: 40px;
 		}
 	
 	#features-wrapper
@@ -1052,6 +1067,8 @@
 	
 	#header
 	{
+
+		margin-top: -40px;
 		position: relative;
 		border-bottom: solid 2px #e5e5e5;
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
@@ -1059,9 +1076,11 @@
 
 		#header h1
 		{
-			font-family: 'Arvo';
-			font-weight: 700;
-			color: #ed786a;
+			font-family: 'Source Sans Pro','Arvo';
+			letter-spacing: -30px;
+			font-weight: 600;
+			font-size: 100px;
+			color: blue;
 			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 		}
 
@@ -1073,7 +1092,8 @@
 		#header p
 		{
 			text-transform: uppercase;
-			font-weight: 400;
+			font-size: 500%;
+			font-weight: 600;
 			color: #888;
 		}
 
