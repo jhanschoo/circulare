@@ -1269,3 +1269,12 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 		border-top: solid 2px #e5e5e5;
 		text-align: center;
 	}
+
+.placeholder-image {
+	width: 100%;
+}
+
+.donate-button {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
