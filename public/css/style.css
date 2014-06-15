@@ -1279,3 +1279,7 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
+
+.transparent {
+	opacity: 0.75;
+}
