@@ -1,0 +1,22 @@
+Text p1:
+Welcare Medical Center
+Impacting the lives of children, women and elderly through medical care 
+
+Text p2:
+Joy Adult Day Care Center 
+Offering a variety of services to provide a warm and friendly atmosphere for elderly. 
+
+Text p3:
+Rainbow Children’s Center 
+Nurturing the artistic growth of children through creative expression and self-guided learning.
+
+Test p4: 
+Sunrise Home
+Serving a richly diverse elderly community by providing individualized care for physical and social needs.
+
+Project Costs:
+p1: $60,000
+p2: $20,000
+p3:$25,000
+p4:$30,00
+
