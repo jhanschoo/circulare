@@ -181,12 +181,12 @@
 		#nav > ul > li
 		{
 			display: inline-block;
-			padding-right: 2em;
+			margin-right: 2em;
 		}
 		
 			#nav > ul > li:last-child
 			{
-				padding-right: 0;
+				margin-right: 0;
 			}
 
 			#nav > ul > li > a
