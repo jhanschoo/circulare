@@ -1283,3 +1283,7 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 .transparent {
 	opacity: 0.75;
 }
+
+.center-text {
+  text-align: center;
+}
