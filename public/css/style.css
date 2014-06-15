@@ -27,7 +27,7 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
   -ms-transition: background 0.25s ease-in-out, border-bottom-color 0.125s ease-in-out;
   transition: background 0.25s ease-in-out, border-bottom-color 0.125s ease-in-out;
 }
-#nav ul li:hover{ background-color: #E6EBF0; }
+#nav ul li:hover{ background-color: #fafcea; }
 #nav ul li a,visited{ color: #191970; font-weight:500; display: block; padding: 11px; text-decoration: none; }
 
 #wrapper{ width: 960px; margin: 0 auto; text-align: left; }
@@ -477,7 +477,7 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 		{
 			position: relative;
 			display: inline-block;
-			background: #ed786a;
+			background: #7e82dd;
 			color: #fff !important;
 			text-transform: uppercase;
 			border-radius: 4px;
@@ -1184,7 +1184,7 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span
 					{
-						color: #ED786A;
+						color: #7e80dd;
 					}
 
 /*********************************************************************************/
