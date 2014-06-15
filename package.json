@@ -1,0 +1,7 @@
+{
+  "name": "basicStaticServer",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.1.2"
+  }
+}
