@@ -42,14 +42,14 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 	{
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #777;
+		color: #222;
 	}
 	
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #333;
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -61,7 +61,7 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 
 	a
 	{
-		color: #666;
+		color: #111;
 		text-decoration: none;
 		border-bottom: solid 1px #ddd;
 		-moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
@@ -94,7 +94,7 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 	strong, b
 	{
 		font-weight: 600;
-		color: #666;
+		color: #333;
 	}
 	
 	em, i
@@ -1132,7 +1132,7 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #777;
+				color: #222;
 				outline: 0;
 			}
 
