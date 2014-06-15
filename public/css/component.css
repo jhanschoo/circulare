@@ -186,7 +186,10 @@
 		margin: -55px 5px 0 0px;
 	}	
 }
-.cbp_tmtimeline > li,
-.cbp_tmtime span:last-child {
-  font-size: 2em;
+.cbp_tmtime {
+  font-size: 80%;
+}
+
+.cbp_tmlabel h2 {
+	color: #fff;
 }
