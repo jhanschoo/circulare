@@ -31,7 +31,6 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 #nav ul li a,visited{ color: #191970; font-weight:500; display: block; padding: 11px; text-decoration: none; }
 
 #wrapper{ width: 960px; margin: 0 auto; text-align: left; }
-#content{ background-color: #47454b; border: 3px solid #DDD; padding: 20px; margin: 80px 0 0 0; }
 /*end top nav bar*/
 
 	body
@@ -1220,8 +1219,10 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 /* Content                                                                       */
 /*********************************************************************************/
 	
-	#content
+	#content > h1,
+	#content > h2
 	{
+		text-align: center;
 	}
 
 		#content > section,
