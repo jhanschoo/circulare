@@ -19,7 +19,14 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 #nav{ background-color: white; position: fixed; width: 100%; top: 0; height: 70px; text-align: center; }
 #nav-wrapper{ display: inline-block; width: 960px; margin: auto auto; text-align: middle; }
 #nav ul{ list-style-type: none; padding-top: 15px; margin: 0; }
-#nav ul li{ display: inline-block; }
+#nav ul li{
+  display: inline-block;
+  -moz-transition: background 0.25s ease-in-out, border-bottom-color 0.125s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out, border-bottom-color 0.125s ease-in-out;
+  -o-transition: background 0.25s ease-in-out, border-bottom-color 0.125s ease-in-out;
+  -ms-transition: background 0.25s ease-in-out, border-bottom-color 0.125s ease-in-out;
+  transition: background 0.25s ease-in-out, border-bottom-color 0.125s ease-in-out;
+}
 #nav ul li:hover{ background-color: #E6EBF0; }
 #nav ul li a,visited{ color: #191970; font-weight:500; display: block; padding: 11px; text-decoration: none; }
 
@@ -181,6 +188,16 @@ body{ overflow-y: scroll; padding: 0; margin: 0; font-family: 'Josefin Sans', Ar
 				display: block;
 				width: 100%;
 			}
+
+      .thumbnail {
+        float: left;
+      }
+
+      .thumbnail .image img
+      {
+        width: auto;
+        height: 100px;
+      }
 
 			.image-full
 			{
